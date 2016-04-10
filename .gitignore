@@ -1,3 +1,8 @@
+# Custom ignores
+src/python/packages/
+src/python/media/
+data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

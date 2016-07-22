@@ -9,11 +9,11 @@ You should have the following installed and ready to use:
 * Java JDK (>= 1.7)
 * Maven (>= 3.2.0)
 * Python (>= 2.5)
-  * Packages: requests, bottle, jinja2, sqlobject, iso8601, markdown, cherrypy
+  * Packages: requests, bottle, jinja2, sqlobject, iso8601, markdown, cherrypy, pysolr
 
 Tip : to install Python packages, use pip:
 ```bash
-sudo pip install requests bottle jinja2 sqlobject iso8601 markdown cherrypy
+sudo pip install requests bottle jinja2 sqlobject iso8601 markdown cherrypy, pysolr
 ```
 
 ## Data Dump

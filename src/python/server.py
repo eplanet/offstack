@@ -23,7 +23,7 @@ from sqlobject.dberrors import OperationalError
 from pysolr import Solr, SolrError
 import iso8601
 import html5lib
-from html5lib.filters._base import Filter as HTML5LibFilterBase
+from html5lib.filters.base import Filter as HTML5LibFilterBase
 import markdown
 
 from models import Site, Badge, User

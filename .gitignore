@@ -2,6 +2,7 @@
 src/python/packages/
 src/python/media/
 data/
+osvenv/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

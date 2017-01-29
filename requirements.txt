@@ -1,0 +1,11 @@
+packaging
+appdirs
+requests
+bottle
+jinja2
+sqlobject
+iso8601
+markdown
+cherrypy<4.0.0
+pysolr
+html5lib

@@ -9,11 +9,15 @@ You should have the following installed and ready to use:
 * Java JDK (>= 1.7)
 * Maven (>= 3.2.0)
 * Python (>= 2.5)
-  * Packages: requests, bottle, jinja2, sqlobject, iso8601, markdown, cherrypy, pysolr
+  * Packages: python-virtualenv python-pip python-dev
+  * Python packages: see requirements.txt
 
-Tip : to install Python packages, use pip:
+## Use virtualenv
+To start a virtualenv with dependencies, use the following:
 ```bash
-sudo pip install requests bottle jinja2 sqlobject iso8601 markdown cherrypy, pysolr
+virtualenv ~/.virtualenv/offstack
+source ~/.virtualenv/offstack/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Data Dump

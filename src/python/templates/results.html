@@ -37,7 +37,7 @@
                 <ul class="site-list">
                     {% for s in sites %}
                     <li>
-                        <img src="{{ SETTINGS.APP_URL_ROOT }}media/logos/{{ s.key }}.png" alt="{{ s.name }} logo" />
+                        <img src="{{ SETTINGS.APP_URL_ROOT }}media/logos/{{ s.key }}.png" alt="{{ s.name }} logo" width=50 height=50 />
                         <h6>
                             <a href="{{ SETTINGS.APP_URL_ROOT }}{{ s.key }}/search?q={{ query }}&amp;s={{ sort_by }}">{{ s.name }}</a>
                             <small class="tagline">{{ s.dump_date }}</small>

@@ -43,5 +43,5 @@ with open(sites_file_path) as f:
             site_key = site_key[:-len('.stackexchange')]
         
         print 'Downloading logo for %s...' % entry_title,
-        urllib.urlretrieve('http://sstatic.net/%s/img/icon-48.png' % site_key, os.path.join(logos_dir_path, '%s.png' % site_key))
+        urllib.urlretrieve('https://cdn.sstatic.net/Sites/%s/img/apple-touch-icon.png' % site_key, os.path.join(logos_dir_path, '%s.png' % site_key))
         print 'done.'

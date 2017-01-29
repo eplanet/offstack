@@ -4,6 +4,7 @@ if [ $# -lt 1 ] || [ ! -d $1 ] || [ ! -f data/sites ]
 then
     echo "Usage: $0 <directory> [temp directory]"
     echo "  Please note that data/sites must exist"
+    echo "  Create data/sites with: ./manage.sh download_site_info"
     exit 1
 fi
 

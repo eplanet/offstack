@@ -13,7 +13,7 @@ Stackdump Home
         <div class="span12">
             <div class="search-container">
                 {% if site %}
-                <img class="site-logo" src="{{ SETTINGS.APP_URL_ROOT }}media/logos/{{ site.key }}.png" alt="{{ site.name }} logo" />
+                <img class="site-logo" src="{{ SETTINGS.APP_URL_ROOT }}media/logos/{{ site.key }}.png" alt="{{ site.name }} logo" width=50 height=50 />
                 <h1 class="site-title">
                     {{ site.name }}
                     <small class="tagline">{{ site.desc }}</small>
@@ -42,7 +42,7 @@ Stackdump Home
                 <ul class="site-list">
                     {% for s in sites %}
                     <li>
-                        <img src="{{ SETTINGS.APP_URL_ROOT }}media/logos/{{ s.key }}.png" alt="{{ s.name }} logo" />
+                        <img src="{{ SETTINGS.APP_URL_ROOT }}media/logos/{{ s.key }}.png" alt="{{ s.name }} logo" width=50 height=50 />
                         <h6>
                             <a href="{{ SETTINGS.APP_URL_ROOT }}{{ s.key }}/">{{ s.name }}</a>
                             <small class="tagline">{{ s.dump_date }}</small>
